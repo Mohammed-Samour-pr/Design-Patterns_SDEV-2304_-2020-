@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory;
+package Factory_Q2;
 
-import Factory.CarType.Cartype;
-import static Factory.CarType.Cartype.VANS;
+import Factory_Q2.CarType.Cartype;
+import static Factory_Q2.CarType.Cartype.VANS;
 
 /**
  *

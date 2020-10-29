@@ -3,26 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory;
+package Factory_Q2;
 
-import Factory.CarType.Cartype;
+import Factory_Q2.CarType.Cartype;
 
 /**
  *
  * @author PC
  */
-public class SUVSCar extends car {
+public class SedanCar extends car {
 
-    public SUVSCar() {
-        super(Cartype.SUVS);
+    public SedanCar() {
+        super(Cartype.SEDAN);
         construct();
     }
 
     @Override
-
     protected void construct() {
-        System.out.println("Building Suvs car");
-
+        System.out.println("Building sedan car");
         // add accessories
     }
+
 }
